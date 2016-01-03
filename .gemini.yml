@@ -1,0 +1,14 @@
+#rootUrl: http://vstack-c9-vslinko.c9.io
+rootUrl: http://10.0.2.2:3000
+#gridUrl: http://VyacheslavSlinko:QkUJgcG9sUz2bp6AEDxf@hub.browserstack.com/wd/hub
+gridUrl: http://localhost:4444/wd/hub
+# parallelLimit: 1
+browsers:
+    # chrome38: { browserName: 'chrome', version: '38.0', platform: 'WINDOWS' }
+    # firefox33: { browserName: 'firefox', version: '33.0', platform: 'WINDOWS' }
+    # ie9: { browserName: 'internet explorer', version: '9.0', platform: 'WINDOWS' }
+    # ie10: { browserName: 'internet explorer', version: '10.0', platform: 'WINDOWS' }
+    # ie11: { browserName: 'internet explorer', version: '11.0', platform: 'WINDOWS' }
+    # opera12: { browserName: 'opera', version: '12.17', platform: 'WINDOWS' }
+    firefox13_linux: { browserName: 'firefox', version: '31.0', platform: 'LINUX' }
+    chrome38_linux: { browserName: 'chrome', version: '38.0', platform: 'LINUX' }

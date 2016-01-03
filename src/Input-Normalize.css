@@ -1,0 +1,27 @@
+.Input {
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0 10px;
+	border: 1px solid #999999;
+		border-color: blue;
+	outline: none;
+	background: #FEFEFE;
+	font-size: 14px;
+}
+
+.Input:hover {
+	border-color: #666666;
+		border-color: green;
+}
+
+.Input:active, .Input:focus, .Input:hover:active, .Input:hover:focus {
+	border-color: #000000;
+		border-color: red;
+	background-color: #FFFFFF;
+}
+
+.Input::-ms-clear {
+    display: none;
+}
